@@ -1,7 +1,7 @@
 # Example AdminLTE3 for master by Anthony Chilan 
 
 User default data mysql and don´t need it pass
-# example md files by Anthony Chilan
+# Example md files by Anthony Chilan
 APP_NAME=QuizThat
 APP_ENV=local
 APP_KEY=base64:xNwjP+D1FzERNpLMMl+UGJR+Ag3A+y7ghBN4LnMaOXg=
@@ -48,3 +48,11 @@ PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+## Use push pull commit examples
+-git init
+-git add .
+-git commit -m "whatever something"
+## Force push commit for upload files 
+-git push --force origin master 
+
+
